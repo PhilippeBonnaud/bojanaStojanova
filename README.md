@@ -1,2 +1,3 @@
 # bojanaStojanova
-A scientist profile website
+
+A scientist profile website built with jekyll.
