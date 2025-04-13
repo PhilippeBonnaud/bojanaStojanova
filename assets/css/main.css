@@ -24,9 +24,9 @@
     font-variant:small-caps;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 1.8em;
     margin-bottom: 2px;
-    line-height: 1rem;
+    line-height: 1em;
 }
 
 .font-subtitle {
@@ -35,8 +35,8 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.4rem;
-    line-height: 0.7rem;
+    font-size: 1.4em;
+    line-height: 0.7em;
 }
 
 .font-notice {
@@ -44,18 +44,18 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.7rem;
-    line-height: 0.7rem;
+    font-size: 0.7em;
+    line-height: 0.7em;
 }
 
 .font-p {
     font-family: Baskerville, "Times New Roman", Georgia, serif;
     font-optical-sizing: auto;
     letter-spacing: 0.5px;
-    line-height: 1.5rem;
+    line-height: 1.5em;
     font-weight: 400;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 1.2em;
 }
 
 /* #6C8556, #C37A6A, #E7E8D8, #939671, #9C3B66 */
@@ -88,8 +88,8 @@ header img {
     position: absolute;
     top: 1rem;
     left: 1rem;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 150px;
     object-fit: cover;
     object-position: 50% 35%;
@@ -133,11 +133,11 @@ content {
 }
 
 footer {
-    background: white;
     z-index: 2;
+    background:white;
     max-width: 1000px;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction:row;
+    justify-content: flex-end;
 }
